@@ -5,52 +5,43 @@
 }
 
 body {
-  background-color: rgb(255, 247, 201);
+  background-color: pink;
   font-family: Arial;
   font-size: 20px;
-  padding: 50px;
+  padding: 75px;
+}
+
+#course-image {
+  width: 500px;
+  height: 300px;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 40px;
   margin-bottom: 25px;
 }
 
 h2 {
   margin-bottom: 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 p {
   margin-bottom: 20px;
 }
 
-.first {
-  color: red;
-}
-
 #your-name {
-  background-color: rgb(255, 220, 105);
-  border: 5px solid #444;
-  width: 400px;
+  background-color: blanchedalmond;
+  border: 5px solid burlywood;
+  border-radius: 10px;
   padding: 25px;
+  width: 400px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 input,
 button {
   padding: 10px;
   font-size: 16px;
-}
-
-a {
-  background-color: yellowgreen;
-}
-
-#course-image {
-  width: 300px;
-}
-
-#your-name h2 {
-  color: olivedrab;
 }
